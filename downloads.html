@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Downloads — GreenTags</title>
+  <link rel="icon" href="assets/img/favicon.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  
+<header>
+  <div class="container">
+    <nav>
+      <span class="brand"><span class="tag"></span> <span>GreenTags Research</span></span>
+      <a href="index.html">Home</a>
+      <a href="publications.html">Publications</a>
+      <a href="downloads.html">Downloads</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+  <main class="container">
+    <h1>Downloads</h1>
+    <div class="grid">
+      <div class="card">
+        <h3>Project Overview</h3>
+        <p class="small">Short PDF overview of goals, methods and partners.</p>
+        <a class="btn" href="pdfs/overview.pdf" target="_blank">Open PDF</a>
+      </div>
+      <div class="card">
+        <h3>Dataset Card</h3>
+        <p class="small">Documentation for datasets and licensing.</p>
+        <a class="btn" href="pdfs/dataset-card.pdf" target="_blank">Open PDF</a>
+      </div>
+      <div class="card">
+        <h3>Results & Reports</h3>
+        <p class="small">Milestones, deliverables and technical reports.</p>
+        <a class="btn" href="pdfs/results.pdf" target="_blank">Open PDF</a>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:18px">
+      <h2>Inline PDF Viewer (example)</h2>
+      <p class="small">Replace the filename below with any PDF you want to preview inline.</p>
+      <embed src="pdfs/overview.pdf" type="application/pdf" />
+    </div>
+  </main>
+  
+<footer>
+  <div class="container">
+    <div>© <span id="y"></span> GreenTags Research — <span class="small">greentags.eu</span></div>
+    <div class="small">Made with a lightweight static template. Replace texts & upload PDFs to the <code>/pdfs/</code> folder.</div>
+  </div>
+  <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
+  <script src="assets/js/main.js"></script>
+</footer>
+
+</body>
+</html>

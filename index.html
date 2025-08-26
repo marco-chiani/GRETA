@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GreenTags Research Project</title>
+  <meta name="description" content="Research project website: goals, publications, datasets and PDF downloads.">
+  <link rel="icon" href="assets/img/favicon.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  
+<header>
+  <div class="container">
+    <nav>
+      <span class="brand"><span class="tag"></span> <span>GreenTags Research</span></span>
+      <a href="index.html">Home</a>
+      <a href="publications.html">Publications</a>
+      <a href="downloads.html">Downloads</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="card">
+        <h1>GreenTags — Research Project</h1>
+        <p class="small">A minimal, fast website to showcase your project overview, publications and PDFs.</p>
+        <div class="actions">
+          <a class="btn primary" href="downloads.html">Download PDFs</a>
+          <a class="btn" href="publications.html">See Publications</a>
+        </div>
+      </div>
+      <div class="card">
+        <h2>At a Glance</h2>
+        <ul>
+          <li>Focus: sustainable networking, data tagging, reproducible research.</li>
+          <li>Technologies: 5G/6G, IoT, Signal Processing, Data Storage, Cybersecurity, Quantum.</li>
+          <li>Partners: universities, labs, and industry.</li>
+        </ul>
+      </div>
+    </section>
+    <section style="margin-top:18px">
+      <div class="grid">
+        <div class="card">
+          <h3>Quick Start</h3>
+          <p>Drop your PDFs in <code>/pdfs/</code> and link them from <a href="downloads.html">Downloads</a>.</p>
+        </div>
+        <div class="card">
+          <h3>Embed a PDF</h3>
+          <pre>&lt;embed src="pdfs/overview.pdf" type="application/pdf"&gt;</pre>
+        </div>
+        <div class="card">
+          <h3>Custom Domain</h3>
+          <p>Point <code>greentags.eu</code> to this hosting. Make sure HTTPS is enabled.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+<footer>
+  <div class="container">
+    <div>© <span id="y"></span> GreenTags Research — <span class="small">greentags.eu</span></div>
+    <div class="small">Made with a lightweight static template. Replace texts & upload PDFs to the <code>/pdfs/</code> folder.</div>
+  </div>
+  <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
+  <script src="assets/js/main.js"></script>
+</footer>
+
+</body>
+</html>
