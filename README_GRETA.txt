@@ -1,4 +1,3 @@
-
 # GreenTags (GRETA)
 
 This site contains the results of the Italian project 
